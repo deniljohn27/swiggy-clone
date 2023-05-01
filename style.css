@@ -7,9 +7,9 @@ body{
     background-color: #fcfcfc;
 }
 main{
-    margin: 0 auto;
-    position: relative;
-    top:175px;
+    margin: 175px auto;
+    margin-bottom:0px;
+
 
 }
 /* NAVBAR-START */
@@ -20,6 +20,7 @@ main{
     padding:14px 0;
     background-color: white;
     position: fixed;
+    top: 0;
 
 }
 
