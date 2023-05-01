@@ -131,6 +131,14 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.relevance{
+    border-bottom: 2px solid black;
+    padding-bottom: 21px;
+}
+.filter{
+    color:black;
+    font-weight: bolder;
+}
 .filter>span{
     margin-right:6px ;
 }
@@ -167,12 +175,12 @@ main{
     font-size:14px ;
 }
 .others-items{
-    font-size: 13px;
+    font-size: 10px;
 }
 .rating{
     background-color: #48c479;
-    width:40px;
-    padding:3px;
+    width:35px;
+    padding:2px;
     color:white;
 }
 .others{
@@ -197,7 +205,7 @@ main{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    /* visibility: hidden; */
+    padding:10px 0;
 }
 .card:hover .quickview{
     border-top: 2px solid rgb(201, 202, 207,1);
